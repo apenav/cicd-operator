@@ -31,8 +31,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	cicdv1alpha1 "github.com/victorpaulo/cicd-operator/api/v1alpha1"
-	"github.com/victorpaulo/cicd-operator/helpers"
+	cicdv1alpha1 "github.com/apenav/cicd-operator/api/v1alpha1"
+	"github.com/apenav/cicd-operator/helpers"
 )
 
 //DeploymentMap map to hold the CIBuild objects

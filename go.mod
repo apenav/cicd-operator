@@ -1,4 +1,4 @@
-module github.com/victorpaulo/cicd-operator
+module github.com/apenav/cicd-operator
 
 go 1.13
 

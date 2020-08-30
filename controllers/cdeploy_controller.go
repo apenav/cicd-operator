@@ -21,8 +21,8 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
-	"github.com/victorpaulo/cicd-operator/api/v1alpha1"
-	"github.com/victorpaulo/cicd-operator/helpers"
+	"github.com/apenav/cicd-operator/api/v1alpha1"
+	"github.com/apenav/cicd-operator/helpers"
 	appsv1 "k8s.io/api/apps/v1"
 	batchv1 "k8s.io/api/batch/v1"
 	"k8s.io/apimachinery/pkg/api/errors"

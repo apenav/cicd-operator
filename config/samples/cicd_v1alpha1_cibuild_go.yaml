@@ -3,7 +3,7 @@ kind: CIBuild
 metadata:
   name: build-go
 spec:
-  SCMRepoURL: "git@github.com:victorpaulo/microservices.git"
+  SCMRepoURL: "git@github.com:apenav/microservices.git"
   imageDestination: "kind-registry:5000/microservices-app1:1.0"
   SCMSecret: "git-creds"
   subContext: "app1"

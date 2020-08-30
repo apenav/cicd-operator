@@ -12,7 +12,7 @@ $ mkdir cicd-operator
 $ cd cicd-operator
 ```
 ### This command will create the structure for your project
-`$ operator-sdk init --domain=cicd.com --repo=github.com/victorpaulo/cicd-operator`
+`$ operator-sdk init --domain=cicd.com --repo=github.com/apenav/cicd-operator`
 ### This command will create the CRDs and Controller for your operator
 `$ operator-sdk create api --group=cicd --version=v1alpha1 --kind=CIBuild --resource=true --controller=true`
 

@@ -27,8 +27,8 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	cicdv1alpha1 "github.com/victorpaulo/cicd-operator/api/v1alpha1"
-	"github.com/victorpaulo/cicd-operator/controllers"
+	cicdv1alpha1 "github.com/apenav/cicd-operator/api/v1alpha1"
+	"github.com/apenav/cicd-operator/controllers"
 	// +kubebuilder:scaffold:imports
 )
 

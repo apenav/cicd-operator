@@ -3,7 +3,7 @@ kind: CIBuild
 metadata:
   name: build-nodejs
 spec:
-  SCMRepoURL: "git@github.com:victorpaulo/nodejs-test.git"
+  SCMRepoURL: "git@github.com:apenav/nodejs-test.git"
   imageDestination: "kind-registry:5000/nodejs-test:1.0"
   SCMSecret: "git-creds"
   
