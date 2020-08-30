@@ -3,7 +3,7 @@
 This operator was created using Operator-SDK version 1.0.
 
 ## Creating your K8s Cluster using KinD
-Run the following [bash script](https://gist.github.com/victorpaulo/257c5778ebc0bf92fcd9ac5c75f84d4a) in your environment;
+Run the following [bash script](https://gist.github.com/apenav/4a2035ccef69510b8f4d606c391872b3) in your environment;
 
 ## Creating the Operator
 #### create the directory of your project
